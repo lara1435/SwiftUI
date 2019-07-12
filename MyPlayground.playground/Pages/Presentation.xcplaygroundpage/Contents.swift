@@ -1,4 +1,4 @@
-//: [Previous](@previous)
+//: [Previous](@previous) |  [Next](@next)
 
 import SwiftUI
 import PlaygroundSupport
@@ -26,4 +26,6 @@ struct SecondView: View {
         
     }
 }
-//: [Next](@next)
+
+PlaygroundPage.current.liveView = UIHostingController(rootView: FirstView())
+
